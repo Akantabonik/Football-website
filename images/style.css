@@ -1,0 +1,53 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap')
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.Text {
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 40px;
+    color:#FFFFFF;
+}
+.images img{
+    margin: 20px;
+    width: 500px;
+    height: 450px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+section{
+    display: flex;
+   background: #2D25A0;
+   left: 827px;
+
+    
+}
+.anchor a{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 24px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 120px;
+height: 32px;
+
+background: #E02C6D;
+}
+.fa-arrow-right{
+position: static; 
+}
+/* players blogs */
+.blog-element{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+}
+.blog-element img{
+      
+width: 300px;
+height: 256px;
+}
