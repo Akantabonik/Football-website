@@ -1,12 +1,15 @@
 /* fonts  */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap')
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
 
 body{
     font-family: 'Poppins', sans-serif;
 }
 
 
-/* start css styles */
+/* css styles */
 
 .Text{
     font-size: 30px;
